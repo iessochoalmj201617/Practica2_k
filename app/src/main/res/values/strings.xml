@@ -23,7 +23,7 @@
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_agenda_tabla">Agenda Tabla</string>
     <string name="minombre">Jose Antonio López de Merlo</string>
-    <string name="ejercicio1">Login</string>
+    <string name="ejercicio1">Agenda</string>
     <string name="ejercicio2">Agenda-Constraint</string>
     <string name="ejercicio3">Agenda Tabla</string>
     <string name="ejercicio4">Calculadora Grid</string>
