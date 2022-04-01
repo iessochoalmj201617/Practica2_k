@@ -13,5 +13,10 @@ class MainActivity : AppCompatActivity() {
         btAgenda.setOnClickListener(){
             startActivity(Intent(this@MainActivity,AgendaActivity::class.java))
         }
+        val btReceta:Button=findViewById(R.id.btnEjercicio3)
+        btReceta.setOnClickListener(){
+            startActivity(Intent(this@MainActivity,RecetaActivity::class.java))
+        }
+
     }
 }
