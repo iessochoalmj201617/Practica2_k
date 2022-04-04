@@ -1,14 +1,24 @@
-package net.iessochoa.joseantoniolopez.practica2_k;
+package net.iessochoa.joseantoniolopez.practica2_k
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.View
+import android.widget.TextView
+import net.iessochoa.joseantoniolopez.practica2_k.R
 
-import android.os.Bundle;
+class RecetaActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_receta)
+        val tvDescripcion:TextView=findViewById(R.id.tvDescripcion)
+        val tvIngredientes:TextView=findViewById(R.id.tvIngredientes)
+        val tvReceta:TextView=findViewById(R.id.tvReceta)
 
-public class RecetaActivity extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_receta);
     }
+    private fun llamaActivityDatos(tipo:String,dato:String){
+
+    }
+
+
 }

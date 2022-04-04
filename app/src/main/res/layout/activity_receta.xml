@@ -7,7 +7,7 @@
     tools:context=".RecetaActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivReceta"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription=""
@@ -31,8 +31,8 @@
         android:layout_marginBottom="1dp"
         android:numStars="5"
         android:rating="3.5"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintRight_toRightOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/ivReceta"
+        app:layout_constraintRight_toRightOf="@+id/ivReceta"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintRight_creator="1" />
 
@@ -102,7 +102,7 @@
         tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis eros a ex sollicitudin tincidunt id vitae neque. Etiam non eros sodales, dignissim arcu in, fringilla ipsum. Cras congue fermentum lorem et eleifend. Morbi mattis facilisis tincidunt. " />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/tvIngredientes"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
