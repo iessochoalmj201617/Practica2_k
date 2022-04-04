@@ -1,5 +1,6 @@
 package net.iessochoa.joseantoniolopez.practica2_k
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
@@ -21,4 +22,5 @@ class DatosRecetaActivity : AppCompatActivity() {
         val tvDato:TextView=findViewById(R.id.tvDatos)
         tvDato.text=intent.getStringExtra(EXTRA_DATO)
     }
+
 }
