@@ -4,16 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00BCD4"
     tools:context=".DatosRecetaActivity">
 
     <TextView
         android:id="@+id/tvTipoDato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:text="Titulo"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/tvDatos"
@@ -21,20 +24,20 @@
         android:layout_height="0dp"
         android:text="Texto"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toTopOf="@+id/btSalir"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/tvTipoDato"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTipoDato"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis pellentesque sapien. Pellentesque et risus augue. Maecenas porttitor posuere dolor, a laoreet urna lacinia eget. Ut vestibulum faucibus odio in sodales. Praesent gravida eu tortor faucibus feugiat. Cras vitae massa mauris. Phasellus feugiat nec nibh vitae scelerisque. Nullam eu elit leo. In leo dui, interdum vel mi a, rhoncus faucibus eros.  Nullam imperdiet magna at volutpat vestibulum. In vitae elementum lorem, at tristique nibh. Sed et bibendum elit, ut varius augue. Nullam id tempus sapien. Curabitur facilisis vel ante nec malesuada. Donec lectus odio, hendrerit a eros nec, vestibulum maximus arcu. Vivamus vitae finibus nunc. Aenean eget dignissim libero. Nam sollicitudin sollicitudin ipsum, eu convallis lacus suscipit vitae. Sed posuere elit consequat diam interdum facilisis. Sed eu pellentesque mauris. Sed ultrices sollicitudin nulla, lacinia aliquet ex bibendum gravida. Nulla facilisi. Nulla pharetra dui sodales, eleifend nulla et, efficitur tellus. Proin semper eros nec sapien mattis sagittis. Curabitur quis eleifend elit.  Suspendisse vitae volutpat purus, non interdum lacus. Curabitur ultricies, quam vitae lobortis efficitur, nisi magna pulvinar ante, vitae auctor magna leo eget magna. Ut sit amet tortor rutrum dolor lacinia sodales a nec mi. Aenean id efficitur nunc, a pulvinar libero. Curabitur quis enim tellus. Cras nec tincidunt risus. Donec mollis neque dignissim odio rutrum sagittis. In mauris urna, consequat vitae justo vitae, aliquet condimentum arcu. Etiam a auctor felis, nec commodo sem. Sed consequat rhoncus tortor, vel ultricies dui ultricies ac. Fusce id libero placerat, egestas quam in, dictum nisl. Quisque auctor commodo ipsum, eu malesuada velit accumsan eu. Maecenas accumsan, orci a mollis consequat, mauris lorem pellentesque augue, eu posuere sapien augue eu metus. Curabitur nec venenatis nibh. In mi leo, eleifend nec volutpat vitae, faucibus sit amet mauris. Quisque vel tincidunt odio, a ullamcorper lorem." />
 
     <Button
         android:id="@+id/btSalir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
         android:text="@android:string/ok"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
